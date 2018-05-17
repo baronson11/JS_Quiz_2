@@ -27,4 +27,4 @@ for (var i = 0; i < questions.length; i += 1) {
   }
 }
 
-print("You got " + correctAnswers + " question(s) right." + "<br><br>" + "Here's what you got right: <br>" + "<ul>" + correct + "</ul>" + "<br> Here's what you got wrong: <br>" + "<ul>" + incorrect + "</ul>");
+print("You got " + correctAnswers + " question(s) right." + "<br><br>" + "Here's what you got right: <br>" + "<ul><li>" + correct + "</li></ul>" + "<br> Here's what you got wrong: <br>" + "<ul><li>" + incorrect + "</li></ul>");
